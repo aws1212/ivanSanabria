@@ -1,0 +1,385 @@
+body{
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0;
+    background: #FF9052;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 400px){
+    /*Style header*/
+    .header{
+        flex-grow: 1;
+        height: 60px;
+        background: #5E72FF;
+        text-align: center;
+    }
+    .nav__header-responsive{
+        height: 100%;
+        width: 100%;
+        display: flex;
+    }
+    .div__img-logo{
+        width: 50px;
+        height: 100%;
+        margin-right: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .img-logo{
+        height: 100%;
+        width: 100%;
+    }
+    .div-Title{
+        flex-grow: 1;
+        display: flex;        
+    }
+    .nameTitle{
+        margin: auto;
+        font-size: 1.2em;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .div__img-menu{
+        width: 50px;
+        height: 100%;
+        margin-left: auto;
+        padding: 12px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+    .up, .down{
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+    }
+    .left-up{
+        box-sizing: border-box;
+        border: 2px solid #000;
+        flex-grow: 1;
+        height: 100%;
+        margin-right: 1.5px;
+        margin-bottom: 1.5px;
+        background: #C2FF69;
+        border-radius: 25%;
+    }
+    .right-up{
+        box-sizing: border-box;
+        border: 2px solid #000;
+        flex-grow: 1;
+        height: 100%;
+        margin-left: 1.5px;
+        margin-bottom: 1.5px;
+        right: 0px;
+        background: #C2FF69;
+        border-radius: 25%;
+    }
+    .left-down{
+        box-sizing: border-box;
+        border: 2px solid #000;
+        flex-grow: 1;
+        height: 100%;
+        margin-right: 1.5px;
+        margin-top: 1.5px;
+        background: #C2FF69;
+        border-radius: 25%;
+    }
+    .right-down{
+        box-sizing: border-box;
+        border: 2px solid #000;
+        flex-grow: 1;
+        height: 100%;
+        margin-left: 1.5px;
+        margin-top: 1.5px;
+        right: 0px;
+        background: #E84AD9;
+        border-radius: 100%;
+    }
+
+    /*Style principalArticle*/
+    .pricipalArticle{
+        margin-top: 5px;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        position: relative;
+    }
+    /*Style tittle*/
+    .principalArticle-Title{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #C2FF69;
+        border-bottom-right-radius: 200px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .Title{
+        left: 10%;
+        width: 80%;
+        height: 100%;
+        border-bottom-right-radius: 200px;
+        font-size: 1.8em;
+        letter-spacing: 1.6px;
+        margin-top: 30px;
+        font-stretch: 5;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    /*Style content*/
+    .principalArticle-Content{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        width: 90px;
+        height: 40px;
+        background: #C2FF69;
+        border-top-left-radius: 200px;
+    }
+    .principalContent{
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 200px;
+        font-size: .7em;
+        text-align: right;
+        padding: 2px;
+        box-sizing: border-box;
+        margin: 0;
+        margin-top: 3px;
+        font-family: 'Merriweather', serif;
+    }
+    /*aboutArticle*/
+    .aboutArticle{
+        margin-top: 5px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    .aboutArticle-subTitle{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        padding: 5px;
+        box-sizing: border-box;    
+    }
+    .subTitle{
+        margin: auto;
+        font-size: 1.2em;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        
+    }
+    .aboutArticle-Content{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        padding: 10px;
+        box-sizing: border-box;        
+        background: #4AE8BE;
+    }
+    .Content{
+        margin: auto;
+        font-size: 1em;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+    }
+    /*Project article*/
+    .projectsArticle{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    .projectsArticle-subTitle{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        padding: 5px;
+        box-sizing: border-box;
+        margin: 5px 0px;
+    }
+    /*Projects content*/
+    .projectsArticle-Content{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    /*Type Project*/
+    .titleContent{
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .contentTitle{
+        margin: auto;
+        text-align: center;
+        font-size: .9em;
+        font-family: 'Merriweather', serif;
+    }
+    .Content{
+        width: 100%;
+        flex-grow: 2;
+        padding: 0px;
+        background: #4AE8BE;
+        display: flex;
+        flex-direction: column;
+    }
+    /*Content types*/
+    .content1{
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+    }
+    .content2{
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+    }
+    .contentText, .contentImg{
+        height: 100%;
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+    }
+    .projectTitle{
+        margin: auto;
+        text-align: center;
+        font-size: .7em;
+        font-family: 'Merriweather', serif;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*Style Contact*/
+    .contactArticle{
+        width: 100%;
+        height: 350px;
+        position: relative;
+        margin-top: 5px;
+    }
+    .contactArticle-subtittle{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .contactArticle-content{
+        width: 100%;
+        height: 80%;
+        background: #4AE8BE;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .formContact{
+        width: 100%;
+        height: 100%;
+    }
+    .affair{
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 2px;
+        width: 97%;
+        height: 15%;
+        outline: none;
+        border: 0px solid #000;
+        font-size: .9em;
+        font-family: 'Merriweather', serif;
+    }
+    .message{
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 2px;
+        width: 97%;
+        height: 70%;
+        outline: none;
+        font-size: .9em;
+        resize: none;
+        border: 0px solid #000;
+        font-family: 'Merriweather', serif;
+    }
+    .btnSend{
+        box-sizing: border-box;
+        padding: 3px 5px;
+        margin-top: -2px;
+        margin-left: 2px;
+        height: 10%;
+        width: 97%;
+        outline: none;
+        font-size: .9em;
+        background:#5E72FF;
+        border: 0px solid #000;
+        font-family: 'Merriweather', serif;
+    }
+    /*Style social media*/
+    .socialArticle{
+        width: 100%;
+        height: 250px;
+        position: relative;
+        margin-top: 5px;
+    }
+    .socialArticle-title{
+        width: 100%;
+        height: 20%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .socialArticle-Social{
+        width: 100%;
+        height: 80%;
+        background: #4AE8BE;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .Div-instagram{
+        width: 50%;
+        height: 50%;
+        margin-right: auto;        
+    }    
+    .img-Instagram{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .Div-telegram{
+        width: 50%;
+        height: 50%;
+        margin-left: auto;
+    }
+    .img-Telegram{
+        width: 100%;
+        height: 100%;
+    }
+    /*Style footer*/
+    .footer{
+        margin-top: 10px;
+        width: 100%;
+        height: 50px;
+        background: #C2FF69;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+    }
+    .h6-footer{
+        margin: auto;
+        font-size: .5em;
+        font-family: 'Merriweather', serif;
+    }
+
+}   
+
+

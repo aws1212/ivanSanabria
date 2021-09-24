@@ -1,0 +1,44 @@
+.clicked{
+    animation: clicked .5s forwards;
+}
+.unClicked{
+    animation: unClicked .5s forwards;
+}
+.menuDesplate{
+    animation: menuDesplate .5s forwards; 
+}
+.unmenuDesplate{
+    animation: unmenuDesplate .5s forwards; 
+}
+@keyframes clicked {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+@keyframes unClicked{
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes menuDesplate {
+    0%{
+        margin-top: -1000px
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+@keyframes unmenuDesplate{
+    0%{
+        margin-top: 0px;
+    }
+    100%{
+        margin-top: -1000px
+    }
+}
